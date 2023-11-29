@@ -1,0 +1,42 @@
+{
+  "name": "flurry-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ace serve --watch",
+    "build": "node ace build --production",
+    "start": "node server.js",
+    "test": "node ace test"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^5.9.6",
+    "@japa/preset-adonis": "^1.2.0",
+    "@japa/runner": "2.5.1",
+    "@types/proxy-addr": "^2.0.3",
+    "@types/source-map-support": "^0.5.10",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "adonis-preset-ts": "^2.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "pino-pretty": "^10.2.3",
+    "prettier": "^3.1.0",
+    "typescript": "*",
+    "youch": "^3.3.3",
+    "youch-terminal": "^2.2.3"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^5.8.0",
+    "@adonisjs/lucid": "^18.4.2",
+    "@adonisjs/repl": "^3.1.0",
+    "luxon": "^3.4.4",
+    "mysql2": "^3.6.5",
+    "proxy-addr": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.21"
+  }
+}
